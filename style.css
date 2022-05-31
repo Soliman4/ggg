@@ -46,11 +46,11 @@ html {
     .btn {
         display: inline-block;
         margin-top: 0rem;
-        padding: 1rem 3rem;
+        padding: 1rem 2rem;
         cursor: pointer;
         text-transform: capitalize;
         color: #fff;
-        border: 0.2rem solid #ef3b3b;
+        border: 0.2rem solid;
         background: #ef3b3b;
         border-radius: 50px;
     }
@@ -76,7 +76,6 @@ a{
     margin: 0 auto;
 }
 #header{
-    min-height: 100vh;
     background-color: var(--alice-blue);
 }
 .navbar-toggler{
@@ -493,7 +492,86 @@ a{
         margin-top: 1rem;
     }
 
-
+    /* login style */
+.login form, .register form {
+    max-width: 35rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    background: #fff;
+    border: 0.1rem solid #334;
+    margin: 0.5rem auto;
+    }
+    
+    .login form h3, .register form h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    color: #334;
+    text-transform: uppercase;
+    }
+    
+    .login form .box, .register form .box {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    border-radius: .5rem;
+    border: 0.1rem solid #334;
+    font-size: 1.6rem;
+    color: #777;
+    text-transform: none;
+    margin: .7rem 0;
+    font-size: 1rem;
+    }
+    .control{
+        display: flex;
+    }
+    .login form .remember, .register form .remember {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: .9rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    }
+    
+    .login form .remember label, .register form .remember label {
+    font-size: 1rem;
+    cursor: pointer;
+    color: #777;
+    }
+    
+    .login form .btn, .register form .btn {
+    width: 100%;
+    text-align: center;
+    }
+    
+    .login form .btn.link, .register form .btn.link {
+    background-color: #334;
+    }
+    
+    .login form .btn.link:hover, .register form .btn.link:hover {
+    background-color: #2597f4;
+    }
+    
+    .login form p, .register form p {
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: #777;
+    text-align: center;
+    padding-bottom: .8rem;
+    }
+    
+    .login form a, .register form a {
+    background-color: #334;
+    color: #fff;
+    }
+    
+    .login form a:hover, .register form a:hover {
+    background-color: #ef3b3b;
+    color: #fff;
+    }
 
 
 
